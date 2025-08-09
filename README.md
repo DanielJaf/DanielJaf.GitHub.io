@@ -13,7 +13,7 @@
     let outputText = "";
     
     if (response == "Yes") {
-      outputText = "Haha, swerte ko naman gago!";
+      outputText = "Haha, swerte ko naman gago!"; 
     } else if (response == "No") {
       outputText = "Thank you for answering the question.";
     } else {
