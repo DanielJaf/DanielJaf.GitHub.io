@@ -9,19 +9,19 @@
 <body>
   <h1 id="resultText"></h1>
   <script>
-    
-    let response = prompt("Pwede ba kitang maging girlfriend"Type Yes or No");
+    let response = prompt("Pwede ba kitang maging girlfriend? Type Yes or No");
     let outputText = "";
     
-    if (response=="Yes"){
-      outputText = "Haha Swerte ko naman gago";
-    }else if(response=="No"){
-      outputText = "Thank You For Answering The Question";
-    }else{
-      outputText = "please type Yes or No!!";
+    if (response == "Yes") {
+      outputText = "Haha, swerte ko naman gago!";
+    } else if (response == "No") {
+      outputText = "Thank you for answering the question.";
+    } else {
+      outputText = "Please type Yes or No!!";
     }
     
     document.getElementById("resultText").innerHTML = outputText;
   </script>
 </body>
 </html>
+
